@@ -4,6 +4,9 @@ from tensorflow.keras.models import load_model
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+from app.services.download_models import download_models
+
+download_models()
 
 classifier = load_model('app/ml_models/classifier.keras')
 segmenter = load_model('app/ml_models/best_segmenter_3.keras')

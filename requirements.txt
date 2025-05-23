@@ -18,6 +18,7 @@ h11==0.16.0
 h5py==3.13.0
 httptools==0.6.4
 idna==3.10
+kagglehub==0.3.12
 keras==3.10.0
 kiwisolver==1.4.8
 libclang==18.1.1
@@ -56,6 +57,7 @@ tensorboard==2.19.0
 tensorboard-data-server==0.7.2
 tensorflow==2.19.0
 termcolor==3.1.0
+tqdm==4.67.1
 typing-inspection==0.4.1
 typing_extensions==4.13.2
 urllib3==2.4.0
